@@ -42,4 +42,4 @@ steps:
     pytest
   displayName: 'pytest'
 
- - script: echo "hello world"
+- script: echo "hello world"
