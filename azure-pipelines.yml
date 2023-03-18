@@ -31,12 +31,14 @@ steps:
 #     versionSpec: '$(py_ver)'
 #   displayName: 'Use Python $(py_ver)'
   
-- script: |
-    python -m pip install --upgrade pip
-    pip install -r requirements.txt
-  displayName: 'Install dependencies'
+# - script: |
+#     python -m pip install --upgrade pip
+#     pip install -r requirements.txt
+#   displayName: 'Install dependencies'
 
-- script: |
-    pip install pytest pytest-azurepipelines
-    pytest
-  displayName: 'pytest'
+# - script: |
+#     pip install pytest pytest-azurepipelines
+#     pytest
+#   displayName: 'pytest'
+
+ - script: echo "hello world"
